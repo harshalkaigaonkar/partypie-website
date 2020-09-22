@@ -19,12 +19,6 @@ const Enquiries = mongoose.Schema({
   eventType: {
     type: String,
   },
-  eventVenue: {
-    type: String,
-  },
-  eventDesc: {
-    type: String,
-  },
   date: {
     type: Date,
     default: Date.now,

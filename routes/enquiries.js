@@ -17,15 +17,7 @@ router.post(
       return res.status(400).json({ errors: errors.array() });
     }
 
-    const {
-      name,
-      email,
-      phone,
-      eventDate,
-      eventType,
-      eventDesc,
-      eventVenue,
-    } = req.body;
+    const { name, email, phone, eventDate, eventType } = req.body;
 
     try {
       const newEnquiry = new Enquiry({
@@ -34,15 +26,13 @@ router.post(
         phone,
         eventDate,
         eventType,
-        eventDesc,
-        eventVenue,
       });
 
       const enquiry = await newEnquiry.save();
-      const enquiryResponse= {
-        enquiry:enquiry,
-        enquiryStatus:true
-      }
+      const enquiryResponse = {
+        enquiry: enquiry,
+        enquiryStatus: true,
+      };
       res.status(200).json(enquiryResponse);
     } catch (err) {
       console.error(err.message);

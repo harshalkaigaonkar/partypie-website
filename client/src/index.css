@@ -8,7 +8,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   top: 0;
   height: 0;
-  overflow: hidden;
   /* zoom: 100% !important; */
 }
 

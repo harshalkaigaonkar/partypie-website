@@ -8,16 +8,16 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div>
+    <div className='main'>
       {" "}
-      <h2 className='pa3 ma3 f1 tc'>How It Works..</h2>
+      <h2 className='pa3 ma3 f1 tc '>How It Works..</h2>
       <div className='center container '>
         <div className='image center'>
           <img src={pic1} alt='' className='ma2-ns ma1 img' />
           <h2 className='tc pa2'>
-            Book
+            Enquire
             <br />
-            Appointment
+            On the Website
           </h2>
         </div>
         <div className='image center'>
