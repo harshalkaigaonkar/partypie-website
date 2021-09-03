@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "361494dcbb3a83901f1a3b7900e977a1",
+    "revision": "dc8dd933c81c136fbf6afb966acb7119",
     "url": "/partypie-website/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/partypie-website/static/css/2.3c03f26f.chunk.css"
   },
   {
-    "revision": "c3a7efa1cb23b83329b0",
+    "revision": "1aff07d5c10487d25687",
     "url": "/partypie-website/static/css/main.d80f94db.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/partypie-website/static/js/2.78e08d91.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c3a7efa1cb23b83329b0",
-    "url": "/partypie-website/static/js/main.bc3026b4.chunk.js"
+    "revision": "1aff07d5c10487d25687",
+    "url": "/partypie-website/static/js/main.bb644912.chunk.js"
   },
   {
     "revision": "d577f53e426532921cd3",

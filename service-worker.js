@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/partypie-website/precache-manifest.064cf749c1c0f3ed87211cc223ecc046.js"
+  "/partypie-website/precache-manifest.77918b9fd6e9cb29cba20d55d4642bda.js"
 );
 
 self.addEventListener('message', (event) => {
